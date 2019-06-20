@@ -15,11 +15,6 @@
         "image":"https://media.tenor.com/images/e3810a0b5db9ab17c16cc3d0efa869dd/raw"
     },
     {
-        "id": 3,
-        "name": "molly",
-        "image":"https://www.tuxedounmasked.com/wp-content/uploads/2016/07/Naru_Worried.jpg"
-    },
-    {
         "id": 4,
         "name": "melvin",
         "image": "https://vignette.wikia.nocookie.net/sailormoonenglishanime/images/0/06/Sailor_moon_melvin.jpg/revision/latest/scale-to-width-down/250?cb=20140531201107"
@@ -101,7 +96,7 @@
     },
     {
         "id": 20,
-        "name": "malachite",
-        "image": "https://vignette.wikia.nocookie.net/majestic-guardians/images/b/b7/Malachite.jpg/revision/latest?cb=20111008164351"
+        "name": "molly",
+        "image":"https://www.tuxedounmasked.com/wp-content/uploads/2016/07/Naru_Worried.jpg"
     }
 ]

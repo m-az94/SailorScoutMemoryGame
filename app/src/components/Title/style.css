@@ -1,0 +1,7 @@
+.jumbotron {
+    border: 4px solid palevioletred;
+    /* background: #73D0D1; */
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/91c4ed69-fa67-4d72-8819-14f10aec31a7/d7kr0s8-cd51a544-56bb-466c-81f5-a2a4252c803b.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzkxYzRlZDY5LWZhNjctNGQ3Mi04ODE5LTE0ZjEwYWVjMzFhN1wvZDdrcjBzOC1jZDUxYTU0NC01NmJiLTQ2NmMtODFmNS1hMmE0MjUyYzgwM2IucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.32YWcLH4E2rjJYjp9UrYWpfz80iCCy3CaPO1V6ubr9Y");
+    background-repeat: round;
+    color: palevioletred;
+}
