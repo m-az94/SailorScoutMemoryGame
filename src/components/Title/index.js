@@ -10,7 +10,7 @@ function Title(props){
             <p>Click on the images below to earn points. But be careful, clicking on an image already clicked will make you lose points</p>
             <div class="row">
                 <h5 className="col-md-6 scoreboard">Score: {props.score}</h5>
-                <h5 className="col-md-6 scoreboard">High Score: {props.highscore}</h5>
+                <h5 className="col-md-6 scoreboard">Wins: {props.wins}</h5>
             </div>
 
         </div>

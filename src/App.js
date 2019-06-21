@@ -10,7 +10,7 @@ import "./style.css";
             cardInfo: characters,
             clicked: [],
             score: 0,
-            highscore: 0
+            wins: 0
         };
     
 
@@ -27,8 +27,10 @@ import "./style.css";
             let clicked = this.state.clicked;
             let score = this.state.score;
             let updateScore = 0;
-            let highscore=this.state.highscore;
-            let updateHighScore = 0;
+            let winCounter=this.state.wins;
+            let updateWinCounter = 0;
+
+            // update score
             if (clicked.includes(id)){
                 updateScore = 0;
                 clicked = []
@@ -38,15 +40,16 @@ import "./style.css";
                 clicked.push(id);
             }
 
-            if(updateScore>highscore){
-                updateHighScore=updateScore;
-            }
-            else{
-                updateHighScore=highscore;
+            // determine winner
+            if (updateScore===20){
+                alert ("Congratulations! You Won! Click to play again!")
+                updateScore=0;
+                clicked = [];
+                updateWinCounter=winCounter+1;
             }
 
             this.setState({
-                highscore: updateHighScore,
+                wins: updateWinCounter,
                 score: updateScore,
                 clicked: clicked
             })
@@ -58,7 +61,7 @@ import "./style.css";
         return (
             <div className="background">
                 <div className="container">
-                    <Title score={this.state.score} highscore={this.state.highscore} />
+                    <Title score={this.state.score} wins={this.state.wins} />
                     <Wrapper>
                     {
                         this.shuffle(this.state.cardInfo)
