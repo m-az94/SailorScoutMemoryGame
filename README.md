@@ -8,7 +8,9 @@ The Sailor Scount Memory game is a game where players score points for clicking 
 * CSS 3
 * JavaScript ES5/6
 
-## Framework
+## Libraries
 * ReactJS - https://reactjs.org/
 
+## Frameworks
+* Bootstrap - https://getbootstrap.com/
 
