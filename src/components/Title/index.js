@@ -8,7 +8,11 @@ function Title(props){
             <h5 id="tagline">Can you remember these 90s icons?</h5>
             <hr />
             <p>Click on the images below to earn points. But be careful, clicking on an image already clicked will make you lose points</p>
-            <h5>Score: {props.score}</h5>
+            <div class="row">
+                <h5 className="col-md-6 scoreboard">Score: {props.score}</h5>
+                <h5 className="col-md-6 scoreboard">High Score: {props.highscore}</h5>
+            </div>
+
         </div>
     )
 }

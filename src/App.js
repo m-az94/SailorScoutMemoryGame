@@ -9,7 +9,8 @@ import "./style.css";
         state = {
             cardInfo: characters,
             clicked: [],
-            score: 0
+            score: 0,
+            highscore: 0
         };
     
 
@@ -23,19 +24,29 @@ import "./style.css";
         }
 
         handleOnClick = (id) =>{
-            alert("handleo")
             let clicked = this.state.clicked;
             let score = this.state.score;
-            let updateScore = 0
+            let updateScore = 0;
+            let highscore=this.state.highscore;
+            let updateHighScore = 0;
             if (clicked.includes(id)){
-                updateScore = score-1;
+                updateScore = 0;
+                clicked = []
             }
             else{
                 updateScore= score +1;
                 clicked.push(id);
             }
 
+            if(updateScore>highscore){
+                updateHighScore=updateScore;
+            }
+            else{
+                updateHighScore=highscore;
+            }
+
             this.setState({
+                highscore: updateHighScore,
                 score: updateScore,
                 clicked: clicked
             })
@@ -47,7 +58,7 @@ import "./style.css";
         return (
             <div className="background">
                 <div className="container">
-                    <Title score={this.state.score} />
+                    <Title score={this.state.score} highscore={this.state.highscore} />
                     <Wrapper>
                     {
                         this.shuffle(this.state.cardInfo)

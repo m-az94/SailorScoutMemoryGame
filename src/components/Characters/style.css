@@ -3,3 +3,6 @@ img {
     width: 150px;
     border: 3px solid palevioletred;
 }
+.img-container{
+    text-align: center;
+}

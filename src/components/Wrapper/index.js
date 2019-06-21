@@ -4,7 +4,8 @@ function Wrapper(props){
     return( 
     <div className="container wrapper">
         <div class="row">{props.children}</div>
-    </div>)
+    </div>
+    )
 }
 
 export default Wrapper;
