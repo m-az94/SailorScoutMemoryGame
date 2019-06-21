@@ -1,1 +1,0 @@
-{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,WACI,wBAA+B,CAE/B,wkBAA2kB,CAC3kB,uBAAwB,CACxB,aACJ,CANA,IACI,YAAa,CACb,WAAY,CACZ,wBACJ,CAJA,YACI,mGACJ","file":"main.0d83396b.chunk.css","sourcesContent":[".background{\n    background: linear-gradient(to right, #ECB5D1, #1BB3DC,#4AC2C4,#fff,#ECB5D1,#fff,#4AC2C4,#1BB3DC, #ECB5D1);\n}"]}
