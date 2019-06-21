@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6ef270ecc077487207a3a7a05d899741",
+    "revision": "3ef08e6fba5fd922bd464e65c6fb5295",
     "url": "/SailorScoutMemoryGame/index.html"
   },
   {
-    "revision": "710493b1fc69de9046e7",
+    "revision": "5e1468339857f943a098",
     "url": "/SailorScoutMemoryGame/static/css/main.0a06c48a.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SailorScoutMemoryGame/static/js/2.6efc73d3.chunk.js"
   },
   {
-    "revision": "710493b1fc69de9046e7",
-    "url": "/SailorScoutMemoryGame/static/js/main.67a0b0f4.chunk.js"
+    "revision": "5e1468339857f943a098",
+    "url": "/SailorScoutMemoryGame/static/js/main.8e78f310.chunk.js"
   },
   {
     "revision": "17b779668ae928ee55f7",

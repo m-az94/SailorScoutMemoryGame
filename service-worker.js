@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SailorScoutMemoryGame/precache-manifest.5c9fe432930850ffd414d57658182b96.js"
+  "/SailorScoutMemoryGame/precache-manifest.a5977a036eda2b8bc097e2250cb8336d.js"
 );
 
 self.addEventListener('message', (event) => {

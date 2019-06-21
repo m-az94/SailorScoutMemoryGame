@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SailorScoutMemoryGame/static/css/main.0a06c48a.chunk.css",
-    "main.js": "/SailorScoutMemoryGame/static/js/main.67a0b0f4.chunk.js",
-    "main.js.map": "/SailorScoutMemoryGame/static/js/main.67a0b0f4.chunk.js.map",
+    "main.js": "/SailorScoutMemoryGame/static/js/main.8e78f310.chunk.js",
+    "main.js.map": "/SailorScoutMemoryGame/static/js/main.8e78f310.chunk.js.map",
     "runtime~main.js": "/SailorScoutMemoryGame/static/js/runtime~main.b1722389.js",
     "runtime~main.js.map": "/SailorScoutMemoryGame/static/js/runtime~main.b1722389.js.map",
     "static/js/2.6efc73d3.chunk.js": "/SailorScoutMemoryGame/static/js/2.6efc73d3.chunk.js",
     "static/js/2.6efc73d3.chunk.js.map": "/SailorScoutMemoryGame/static/js/2.6efc73d3.chunk.js.map",
     "index.html": "/SailorScoutMemoryGame/index.html",
-    "precache-manifest.5c9fe432930850ffd414d57658182b96.js": "/SailorScoutMemoryGame/precache-manifest.5c9fe432930850ffd414d57658182b96.js",
+    "precache-manifest.a5977a036eda2b8bc097e2250cb8336d.js": "/SailorScoutMemoryGame/precache-manifest.a5977a036eda2b8bc097e2250cb8336d.js",
     "service-worker.js": "/SailorScoutMemoryGame/service-worker.js",
     "static/css/main.0a06c48a.chunk.css.map": "/SailorScoutMemoryGame/static/css/main.0a06c48a.chunk.css.map"
   }
